@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../index.htmlfonts/icomoon.eot?ig92lh');
+  src:  url('../index.htmlfonts/icomoon.eot?ig92lh#iefix') format('embedded-opentype'),
+    url('../index.htmlfonts/icomoon.ttf?ig92lh') format('truetype'),
+    url('../index.htmlfonts/icomoon.woff?ig92lh') format('woff'),
+    url('../index.html') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-imgur:before {
+  content: "\e900";
+  color: #1bb76e;
+}
+.icon-indeed:before {
+  content: "\e901";
+  color: #2164f3;
+}
+.icon-influxdb:before {
+  content: "\e902";
+  color: #22adf6;
+}
+.icon-invoiceninja:before {
+  content: "\e903";
+}
+.icon-issuu:before {
+  content: "\e904";
+  color: #f36d5d;
+}
+.icon-brand-dot-ai:before {
+  content: "\e905";
+  color: #0aa0ff;
+}
